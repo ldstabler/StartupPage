@@ -1,0 +1,68 @@
+<!doctype HTML>
+<html>
+<title>HomePage</title>
+<html>
+<body>
+<link rel="stylesheet" href="style.css">
+<div id="header" class="header">
+<h1>&#x1D677;&#x1D698;&#x1D696;&#x1D68E;&#x1D699;&#x1D68A;&#x1D690;&#x1D68E;</h1>
+</div>
+<p></p>
+<div class="search">
+<form onsubmit="duckSearch()" action="javascript:void(0)">
+    <input id="searchField" type="text" value="" placeholder="Search DuckDuckGo">
+</form>
+</div>
+<p></p>
+<div class="links">
+	 <a class="button" href="https://drive.google.com/drive">  
+    <button class="button">Google Drive</button> </a>
+	 <a class="button" href="https://mail.google.com">  
+    <button class="button">Gmail</button> </a>
+	 <a class="button" href="https://docs.google.com">
+	 <button class="button">Google Docs</button> </a>
+	 <a class="button" href="https://docs.google.com/presentation">
+	 <button class="button">Google Slides</button> </a>
+	 <a class="button" href="https://docs.google.com/spreadsheets/">
+	 <button class="button">Google Sheets</button> </a>
+	 <a class="button" href="https://docs.google.com/forms/">
+	 <button class="button">Google Forms</button> </a>
+	 <a class="button" href="https://contacts.google.com">
+	 <button class="button">Google Contacts</button> </a>
+    <a class="button" href="https://play.google.com/">
+    <button class="button">Google Play</button> </a>
+        <a class="button" href="https://news.google.com/">
+    <button class="button">Google News</button> </a>
+        <a class="button" href="https://meet.google.com/">
+    <button class="button">Google Meet</button> </a>
+        <a class="button" href="https://duo.google.com/">
+    <button class="button">Google Duo</button> </a>
+        <a class="button" href="https://families.google.com/">
+    <button class="button">Google Family Link</button> </a>
+        <a class="button" href="https://hangouts.google.com/">
+    <button class="button">Google Hangouts</button> </a>
+        <a class="button" href="https://keep.google.com/">
+    <button class="button">Google Keep</button> </a>
+        <a class="button" href="https://maps.google.com/">
+    <button class="button">Google Maps</button> </a>
+        <a class="button" href="https://translate.google.com/">
+    <button class="button">Google Translate</button> </a>
+        <a class="button" href="https://youtube.com/">
+    <button class="button">YouTube</button> </a>
+        <a class="button" href="https://music.youtube.com/">
+    <button class="button">YouTube Music</button> </a>
+        <a class="button" href="https://web.dev/">
+    <button class="button">Web.dev</button> </a>
+        <a class="button" href="https://developers.google.com/">
+    <button class="button">Google Developers</button> </a>
+</div>
+</body>
+<script type="text/javascript">
+    function duckSearch() {
+        var searchField = document.getElementById("searchField");
+        if (searchField && searchField.value) {
+            var query = escape("" + searchField.value);
+            window.location.href = "https://duckduckgo.com/?q=" + query;
+        }
+    }
+</script>
