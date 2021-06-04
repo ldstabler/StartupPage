@@ -9,11 +9,7 @@
 <h1>&#x1D677;&#x1D698;&#x1D696;&#x1D68E;&#x1D699;&#x1D68A;&#x1D690;&#x1D68E;</h1>
 </div>
 <p></p>
-<div class="search">
-<form onsubmit="searchGoogle()" action="javascript:void(0)">
-    <input id="searchField" type="text" value="" placeholder="Search Google...">
-</form>
-</div>
+<div class="gcse-search"></div>
 <p></p>
 <div class="links">
 	 <a class="button" href="https://drive.google.com/drive">  
@@ -67,3 +63,4 @@
         }
     }
 </script>
+<script async src="https://cse.google.com/cse.js?cx=5d49387a23f0a934d"></script>
