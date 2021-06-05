@@ -32,17 +32,9 @@ html{
 .para{
 		text-align: center;
 }
-.form-button:hover{
-				 		 background: grey;
-}
-.form-button{
-				 background: white;
-				 font-family: arial narrow;
-				 
-}
 .button{
 		  width: 100%;
-		  height: 38px;
+		  height: 37.5px;
 		  font-size: 17px;
 		  font-family: arial narrow;
 		  cursor: url(link.png),auto;
