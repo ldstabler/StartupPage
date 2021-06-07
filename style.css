@@ -2,10 +2,6 @@ html{
 	  cursor: url(default.png),auto;
      background: #f2f2f2;
 }
-.form{
-		text-align: center;
-		font-family: arial narrow;
-}
 .header{
 		  text-align: center;
 		  font-family: arial;
@@ -13,21 +9,6 @@ html{
         background: #e9e9e9;
         border: 2px solid black;
         text-shadow: 5px 5px 5px #d3d3d3;
-}
-#header{
-        text-align: center;
-        font-family: arial;
-        font-size: 20px;
-        border-width: 2px;
-}
-#searchField{
-        width: 99.3%;
-        height: 30px;
-        text-align: center;
-        border-color: black;
-        border-width: 2px;
-        font-family: arial;
-        background: #e9e9e9;
 }
 .para{
 		text-align: center;
@@ -50,79 +31,39 @@ html{
 			background: lightgrey;
 			text-align: center;
 }
-.help{
-		cursor: url(help.png),auto;
-      background: white;
-}
 .help:hover{
             background: grey;
-}
-.move{
-		cursor: url(move.png),auto;
-      background: white;
 }
 .move:hover{
             background: grey;
 }
-.nwse{
-		background: white;
-      cursor: url(nwse.png),auto;
-}
 .nwse:hover{
             background: grey;
-}
-.pen{
-	  background: white;
-     cursor: url(pen.png),auto;
 }
 .pen:hover{
            background: grey;
 }
-.ew{
-	 cursor: url(ew.png),auto;
-    background: white;
-}
 .ew:hover{
           background: grey;
-}
-.nesw{
-		cursor: url(nesw.png),auto;
-      background: white;
 }
 .nesw:hover{
             background: grey;
 }
-.up{
-	 cursor: url(up.png),auto;
-    background: white;
-}
 .up:hover{
           background: grey;
-}
-.no{
-    cursor: url(NO.png),auto;
-    background: white;
 }
 .no:hover{
           background: grey;
 }
-.link{
-		cursor: url(link.png),auto;
-      background: white;
-}
 .link:hover{
             background: grey;
 }
-.default{
+.default, text, link, no, up, nesw, ew, pen, nwse, move, help{
 			cursor: url(default.png),auto;
-         background: white;
+                        background: white;
 }
 .default:hover{
                background: grey;
-}
-.text{
-		cursor: url(text.png),auto;
-      background: white;
 }
 .text:hover{
             background: grey;
